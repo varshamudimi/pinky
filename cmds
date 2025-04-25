@@ -1,26 +1,26 @@
 exp 1 : INSTALLATION OF GIT AND CREATING REPOSITORY
 	creating repo
-        clone
+        git clone (pastelink)
 
 exp 2 : WORKING WITH REMOTE REPOSITORIES IN LOCAL MACHINE
 	git config --global user.name "username"
         git config --global user.email "email"
         git config --global --list
-        git clone
+        git clone (paste link)
 	cd(repo name)
 	git add .
-	git commit -m "any msg"
-	git push 
-	git pull
+	git commit -m ("any msg")
+	git push (paste link)
+	git pull (paste link)
 
 exp 3 : VERSION CONTROL IN SOFTWARE APPLICATION DEVELOPMENT
-	git branch any name{(ex:1)}
+	git branch (any name{(ex:1)})
 	git branch
 	git checkout {ex:1 name}
 	git branch
 	git add .
-	git commit -m "any msg"
-	git push
+	git commit -m ("any msg")
+	git push (paste link)
 	git checkout main
 	git branch
 	git merge {ex:1}
@@ -28,7 +28,7 @@ exp 3 : VERSION CONTROL IN SOFTWARE APPLICATION DEVELOPMENT
 exp 4 : GITHUB ISSUES
 	git add .
 	git commit -m "fix #1 ; issue solved"
-	git push
+	git push (paste link)
 
 exp 5 :COLLABRATERS
 	git clone (3)                           1.my repo link
