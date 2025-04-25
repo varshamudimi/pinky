@@ -1,0 +1,17 @@
+Aim:-
+The aim is to guide users in setting up remote repositories and working with them on local machine including cloning , adding , pushing and pulling.
+Description:-
+Git and github provides us with the facility of creating a remote repository and interact and make changes to it on our local machine. These include cloning , adding , pushing and pulling changes. These processors help streamline the version control tasks.
+algorithm:
+ git config --global user.name "username"
+                                 .email "email"
+                     global --list
+        git clone
+	cd(repo name)
+	git add .
+	git commit -m "any msg"
+	git push 
+	git pull
+Result:-
+We have successfully created a local repository, later pushed and pulled code to and from github with configured username and email.
+
