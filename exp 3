@@ -1,0 +1,13 @@
+Aim:-
+ The aim is to describe the various git commands for version control and workflows including 
+creating branches and merging changes.
+Description:-
+ Various git commands are used for version control systems and tracking modifications and 
+creation and files in local as well as remote repositories. These include git commit , git add , git push , git 
+pull , etc. Commands are also available for branch management.
+Commands and their explanations:
+• git status : It describes all the changes made either locally or remotely.
+When “git status” “returns working tree clean” , it means that no changes have been made yet. If 
+it shows modified along with a file name , it means some changes are made in the specified file.
+Result:-
+ We have successfully merge the main and sub branch.
