@@ -1,0 +1,67 @@
+im:-
+The aim is to learn effective collaboration using Git , including forking , branching , merging
+code changes and submitting pull requests.
+
+Description:-
+This experiment focuses on best practices for working with Git in a team setting. It explains step
+by step how to fork a repository , clone it , set up an upstream remote , keep your fork updated , create
+branches for different features , push changes and finally submit & merge pull requests
+
+Commands and their explanations:-
+Step 1: Forking a Repository
+Forking creates a personal copy of the original project in your own Github account. This allows
+you to make changes without affecting the main project.
+
+To fork a repository , go to its Github page
+Click the “Fork” button at the top-right corner. Create a new repository name in own account.
+GitHub will create a copy of the repository under your account. You can now make changes in
+your forked repository
+Step 2: Cloning the Forked Repository
+You can clone it by pasting the forked repository url in :
+git clone < forked repository url >
+This will create a local copy of the repository on your computer.
+
+Step 3: Adding an Upstream Remote
+
+Navigate to the cloned repository directory:-
+cd example-repo
+Step 4: Keeping Your Forked Repository Up to Date
+
+Fetch the latest changes from upstream:-
+git fetch upstream
+Switch to the master branch:-
+git checkout master
+Merge the upstream changes into your local main branch:-
+git merge upstream/main
+Step 5: Creating Branches for Collaborative Work
+
+Create a new branch:-
+git branch update-branch
+Switch to the new branch:-
+git checkout update-branch
+Step 6: Pushing Changes and Creating a Pull Request
+How to Push Changes to GitHub
+
+Stage and commit your changes:-
+git add .
+git commit -m "Added new feature"
+Push the branch to GitHub:-
+git push origin feature-branch
+Creating a Pull Request (PR)
+
+Go to your forked repository on GitHub.
+Navigate to the “Pull requests” tab.
+Click "New Pull Request".
+Select:
+• Base branch: main (original repository)
+• Compare branch: feature-branch (your branch)
+Add a title and description explaining your changes.
+Click "Create Pull Request".
+Step 7: Reviewing and Merging Pull Requests
+Once the pull request is approved after reviewing the pull request , merge your changes
+into the main repository .
+
+Result:-
+Hence, collaborating with users on git by forking their repositories, fetching changes from parent
+repositories and pushing changes to parent repository through pull requests has been completed successfully.
+
