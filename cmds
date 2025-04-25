@@ -1,0 +1,44 @@
+exp 1 : creating repo
+        clone
+
+exp 2 : git config --global user.name "username"
+        git config --global user.email "email"
+        git config --global --list
+        git clone
+	cd(repo name)
+	git add .
+	git commit -m "any msg"
+	git push 
+	git pull
+
+exp 3 : git branch any name{(ex:1)}
+	git branch
+	git checkout {ex:1 name}
+	git branch
+	git add .
+	git commit -m "any msg"
+	git push
+	git checkout main
+	git branch
+	git merge {ex:1}
+
+exp 4 : git add .
+	git commit -m "fix #1 ; issue solved"
+	git push
+
+exp 5 : git clone (3)                           1.my repo link
+	cd.repo name				2.web site link
+	git remote add upstream (2)link		3.forked link
+	git remote -v
+	git fetch upstream
+	git checkout main
+	git merge upstream / main
+	git merge "any name (for ex "vichu")
+	git branch 
+	git checkout "vichu"
+	git branch
+	git add .
+	git commit -m "any msg"
+	git push (2)link
+	close the pull request for (3)
+
