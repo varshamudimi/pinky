@@ -30,20 +30,20 @@ exp 4 : GITHUB ISSUES
 	git commit -m "fix #1 ; issue solved"
 	git push (paste link)
 
-exp 5 :COLLABRATERS
+exp 5 : WORKING WITH COLLABRATERS REPOSITORY MANAGEMENT USING GIT
 	git clone (3)                           1.my repo link
-	cd.repo name				2.web site link
+	cd. (vadi repo name)			2.web site link
 	git remote add upstream (2)link		3.forked link
 	git remote -v
 	git fetch upstream
 	git checkout main
 	git merge upstream / main
-	git merge "any name (for ex "vichu")
+	git merge ("any name" for ex vichu)
 	git branch 
 	git checkout "vichu"
 	git branch
 	git add .
 	git commit -m "any msg"
 	git push (2)link
-	close the pull request for (3)
+	
 
