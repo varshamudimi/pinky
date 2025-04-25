@@ -1,7 +1,9 @@
-exp 1 : creating repo
+exp 1 : INSTALLATION OF GIT AND CREATING REPOSITORY
+	creating repo
         clone
 
-exp 2 : git config --global user.name "username"
+exp 2 : WORKING WITH REMOTE REPOSITORIES IN LOCAL MACHINE
+	git config --global user.name "username"
         git config --global user.email "email"
         git config --global --list
         git clone
@@ -11,7 +13,8 @@ exp 2 : git config --global user.name "username"
 	git push 
 	git pull
 
-exp 3 : git branch any name{(ex:1)}
+exp 3 : VERSION CONTROL IN SOFTWARE APPLICATION DEVELOPMENT
+	git branch any name{(ex:1)}
 	git branch
 	git checkout {ex:1 name}
 	git branch
@@ -22,11 +25,13 @@ exp 3 : git branch any name{(ex:1)}
 	git branch
 	git merge {ex:1}
 
-exp 4 : git add .
+exp 4 : GITHUB ISSUES
+	git add .
 	git commit -m "fix #1 ; issue solved"
 	git push
 
-exp 5 : git clone (3)                           1.my repo link
+exp 5 :COLLABRATERS
+	git clone (3)                           1.my repo link
 	cd.repo name				2.web site link
 	git remote add upstream (2)link		3.forked link
 	git remote -v
