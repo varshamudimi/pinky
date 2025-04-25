@@ -1,0 +1,23 @@
+Aim:-
+The aim is to outline the steps for creating and addressing github issues, facilitating efficient
+project management and collaboration within software development projects.
+
+Description:-
+Github issues can be used to streamline project management by using it to report bugs,
+enhancement and facilitating collaboration.
+
+Github issues:-
+
+Creating github issues: Issues can simply be created by clicking on “issues” tab on the
+repository page and creating a new issue with a title and a description.
+Adding collaborators: If any user has access to your repository (through invitation) , they can
+be assigned to the issue using assign tab.
+Labels: Labels can help to identify and organize the issues.
+Closing issue:-
+i) First the modifications have to be made in the local repository.
+ii) Then by committing this change using git commit -m “fix exp 6 #1” , the issue can be
+fixed ( exp 6 #1 signifies issue number).
+Comment and discuss: Collaboration is encouraged through comments mentioning usernames.
+Feedback and additional information can be provided.
+Result:-
+Hence, collaborating and solving issues on Github has been done successfully.
