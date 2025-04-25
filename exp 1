@@ -1,0 +1,9 @@
+Aim:-
+To demonstrate Git , Github and its repositories , covering setup , managing visibility and executing basic git commands and operations.
+Description:-
+Git is a free , open-source version control system that helps programmers and developers manage source code and collaborate on projects.
+algorithm:
+ceating repository 
+cloning
+Result:-
+Git installed and creating repository successfully.
